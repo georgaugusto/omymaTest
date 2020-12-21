@@ -18,6 +18,7 @@ export default function Clinic({ clinic }) {
             <span>{clinic.email}</span>
           </div>
         </div>
+        
       </div>
       <div>
         <div className="exam">

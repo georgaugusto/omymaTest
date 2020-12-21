@@ -1,5 +1,3 @@
-import { Switch, Route, Link } from "react-router-dom";
-
 import logo from '../../assets/logo.png';
 import './HeaderContainer.css';
 
