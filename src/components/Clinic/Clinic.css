@@ -1,0 +1,142 @@
+section {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 20px 100px 20px 100px;
+  }
+  
+  section div {
+    flex-direction: row;
+  }
+  
+  .vertical {
+    width: 30px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #57b3bd;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .vertical span {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+  
+    text-transform: uppercase;
+  }
+  
+  .info {
+    align-items: flex-start;
+    justify-content: center;
+  
+    flex-direction: column;
+  
+    padding-left: 30px;
+  }
+  
+  .info h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0B132A;
+  }
+  
+  .info div {
+    flex-direction: row;
+  }
+  
+  .info span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+  }
+  
+  .info span:first-child {
+    padding-right: 20px;
+  }
+  
+  .exam span {
+    width: 140px;
+    height: 25px;
+  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #6F876A;
+  
+    text-align: center;
+    
+    background: #C8F4BF;
+    border-radius: 50px;
+  }
+  
+  .exam span:nth-child(odd) {
+    margin: 10px;
+  }
+  
+  .exam span:last-child {
+    margin-bottom: 10px;
+  }
+  
+  .exam {
+    align-items: center;
+    justify-content: center;
+  
+    flex-direction: column;
+  }
+  
+  .contact {
+    align-items: center;
+    justify-content: center;
+  
+    flex-direction: column;
+  
+    background: #4AC959;
+    border-radius: 10px;
+    color: #FFFFFF;
+  
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  .contact div {
+    flex-direction: row;
+  
+    align-items: center;
+    justify-content: center;
+  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+  
+    margin-top: -20px;
+  }
+  
+  .contact img {
+    width: 20px;
+    height: 20px;
+  
+    margin-right: 10px;
+  }
+  
+  .tel {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+  
+    margin-top: 10px;
+  }
