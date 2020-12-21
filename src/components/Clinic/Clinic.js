@@ -18,7 +18,7 @@ export default function Clinic({ clinic }) {
             <span>{clinic.email}</span>
           </div>
         </div>
-        
+
       </div>
       <div>
         <div className="exam">
@@ -28,11 +28,13 @@ export default function Clinic({ clinic }) {
           <span>PPRA</span>
         </div>
         <div className="contact">
-          <div>
-            <img src={whatsapp} alt="whatsapp" />
-            <span>WhatsApp</span>
-          </div>
-          <span className="tel">{clinic.whatsapp}</span>
+          <a href={`https://wa.me/55${clinic.whatsapp}?text=Olá!`}>
+            <div>
+              <img src={whatsapp} alt="whatsapp" />
+              <span>WhatsApp</span>
+            </div>
+            <span className="tel">{clinic.whatsapp}</span>
+          </a>
         </div>
       </div>
     </section>
